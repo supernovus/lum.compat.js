@@ -1,0 +1,23 @@
+{
+  "name": "@lumjs/compat",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./v4-meta": "./lib/v4-meta.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.compat.js.git"
+  },
+  "dependencies": {
+    "@lumjs/core": "^1.0.0",
+    "semver": "^7.3.7"
+  },
+  "scripts":
+  {
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
