@@ -23,22 +23,19 @@ exported from this library.
 
 The main entrypoint is reserved for generic compatibility functions.
 
-### `@lumjs/compat/v4-meta`
+### `@lumjs/compat/v4`
 
-This entry-point adds several overly convoluted meta-programming features that
-had been in the original `core` library in the legacy `v4` but during the 
-early stages of the rewrite I decided were just bloat that could be done better.
+The `v4` compatibility namespace. Includes all `v4` modules in one simple object.
 
-| Core Property   | Description                                               |
+| Property        | Description                                               |
 | --------------- | --------------------------------------------------------- |
-| `descriptors`   | A sub-module for creating magic Descriptor objects.       |
-| `DESC`          | The primary API for the `descriptors` sub-module.         |
-| `prop()`        | An `Object.defineProperty` wrapper using `descriptors`.   |
-
-These were all features I overthought and overdesigned, and added layers of
-complexity that were not required. The `prop()` function has been replaced by 
-`core.def()` which has a cleaner and simpler API and doesn't require the evil
-dark magic that was the `descriptors` module.
+| `descriptors`   | The `v4/descriptors` module.                              |
+| `DESC`          | The `v4/descriptors.DESC` factory object.                 |
+| `prop()`        | The `v4/prop` module.                                     |
+| `deprecated()`  | The `v4/deprecated` module.                               |
+| `LoadTracker`   | The `v4/loadtracker` module.                              |
+| `Promise`       | The `v4/promise` module.                                  |
+| `obj`           | The `v4/object-helpers` module.                           |
 
 ## Official URLs
 

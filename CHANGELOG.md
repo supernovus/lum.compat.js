@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2022-09-12
+### Changed
+- Updated almost all of the DocBlocks for better documentation.
+- Updated README for similar reasons.
+- Changed `v4/meta` into a top-level `v4` that includes all sub-modules.
+- Bumped `@lumjs/core` dependency version to latest.
+### Fixed
+- Fixed a bug in the *default* module.
+
 ## [1.1.0] - 2022-08-11
 ### Changed
 - Moved all *v4* stuff into a new `v4` sub-module.
@@ -20,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/supernovus/lum.compat.js/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/supernovus/lum.compat.js/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/supernovus/lum.compat.js/releases/tag/v1.0.0
 
