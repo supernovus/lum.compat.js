@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2022-10-18
+### Fixed
+- The `v4/loadtracker` was trying to call a function from the old `Lum` global.
+  I replaced it with a new `opts.self` constructor parameter that gets assigned to
+  the `this.$self` property.
+### Changed
+- Bumped `@lumjs/core` to `1.7.1`
+- Using some of the new `ModuleBuilder` shortcuts.
+
 ## [1.3.0] - 2022-10-13
 ### Changed
 - Bumped `@lumjs/core` to `1.6.1`.
@@ -34,7 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/supernovus/lum.compat.js/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/supernovus/lum.compat.js/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/supernovus/lum.compat.js/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/supernovus/lum.compat.js/compare/v1.0.0...v1.1.0
