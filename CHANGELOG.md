@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2023-01-06
+### Changed
+- Made the `v4` set not use any `ModuleBuilder` features anymore.
+- Moved `ModuleBuilder` from core into the `modulebuilder` namespace.
+
 ## [1.3.1] - 2022-10-18
 ### Fixed
 - The `v4/loadtracker` was trying to call a function from the old `Lum` global.
