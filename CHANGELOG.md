@@ -5,6 +5,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Plans
+- The `main` branch is being used for an upcoming `2.0.0` release.
+- The new version will be released alongside `@lumjs/core:2.0.0`.
+- Will add new compatibility helpers to make major upgrades less painful.
+### Added
+- A `v1.x` branch using the same commit as the `v1.4.0` tag.
+### Removed
+- All of the `v1.x` compatibility sub-modules:
+  - `v4` → attempted compatibility with my old-style JS library set.
+  - `modulebuilder` → a badly designed helper for making node.js modules.
+### Changed
+- Cleaned up README to trim anything to do with the removed sub-modules.
+### Fixed
+- Added missing link references to this CHANGELOG.
 
 ## [1.4.0] - 2023-01-06
 ### Changed
@@ -48,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/supernovus/lum.compat.js/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/supernovus/lum.compat.js/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/supernovus/lum.compat.js/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/supernovus/lum.compat.js/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/supernovus/lum.compat.js/compare/v1.1.0...v1.2.0

@@ -1,15 +1,9 @@
 {
   "name": "@lumjs/compat",
-  "version": "1.4.0",
+  "version": "2.0.0-alpha.1",
   "main": "lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./modulebuilder": "./lib/modulebuilder/index.js",
-    "./modulebuilder/into-core": "./lib/modulebuilder/into-core.js",
-    "./v4-meta": "./lib/v4/index.js",
-    "./v4": "./lib/v4/index.js",
-    "./v4/meta": "./lib/v4/index.js",
-    "./v4/*": "./lib/v4/*.js",
     "./package.json": "./package.json"
   },
   "license": "MIT",
@@ -18,8 +12,8 @@
     "url": "https://github.com/supernovus/lum.compat.js.git"
   },
   "dependencies": {
-    "@lumjs/core": "^1.8.0",
-    "semver": "^7.3.7"
+    "@lumjs/core": "^2.0.0-alpha.1",
+    "semver": "^7.6.0"
   },
   "scripts":
   {
