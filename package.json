@@ -1,7 +1,11 @@
 {
   "name": "@lumjs/compat",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0",
   "main": "lib/index.js",
+  "engine":
+  {
+    "node": ">=22.0.0"
+  },
   "exports": {
     ".": "./lib/index.js",
     "./package.json": "./package.json"
@@ -11,12 +15,7 @@
     "type": "git",
     "url": "https://github.com/supernovus/lum.compat.js.git"
   },
-  "dependencies": {
-    "@lumjs/core": "^2.0.0-alpha.1",
-    "semver": "^7.6.0"
-  },
-  "scripts":
-  {
+  "scripts": {
     "build-docs": "jsdoc -c ./jsdoc.json"
   }
 }

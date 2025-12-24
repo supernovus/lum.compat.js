@@ -1,20 +1,20 @@
 # lum.compat.js
 
-As the libraries grow over time, features can change a lot, and backwards
-compatibility is not always easy to maintain.
+Compatibility helpers.
 
-This package will act as a compatibility helper when migrating between major
-versions of my other `@lumjs` packages.
+As of version 2.0, this is a nano-package with zero dependencies that
+currently provides a simple bridge between CommonJS and ES Modules.
 
 ## Branches
 
 ### `main`
 
-The current development branch for the upcoming `2.x` releases.
+The `2.x` releases are from this branch.
 
 ### `v1.x`
 
-The old branch that covered versions `1.0.0` through `1.4.0`.
+The original package was a bunch of compatibility wrappers for [@lumjs/core],
+and covered versions `1.0.0` through `1.4.0`.
 
 ## Official URLs
 
@@ -31,3 +31,4 @@ Timothy Totten <2010@totten.ca>
 
 [MIT](https://spdx.org/licenses/MIT.html)
 
+[@lumjs/core]: https://github.com/supernovus/lum.core.js
